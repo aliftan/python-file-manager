@@ -27,14 +27,24 @@ def file_scanner(from_dir, to_dir, file_type):
 
 # target path
 source_dir = "/Users/omahmac/Downloads"
-target_dir = "/Users/omahmac/Downloads/SVG"
+target_dir = "/Users/omahmac/Downloads/FILE ADOBE"
 
 # file Type
 file_mp4 = ".mp4"
 file_svg = ".svg"
 file_ai = ".ai"
-file_jpg = ".jpg"
+file_jpg = ".JPG"
+file_jpeg = ".jpeg"
+file_sketch = ".sketch"
+file_png = ".PNG"
 file_dmg = ".dmg"
+file_doc = ".docx"
+file_xlsx = ".xlsx"
+file_pdf = ".pdf"
+file_zip = ".zip"
+file_mov = ".mov"
+file_gif = ".gif"
+file_eps = ".eps"
 
 # run
-file_scanner(source_dir, target_dir, file_svg)
+file_scanner(source_dir, target_dir, file_ai)
